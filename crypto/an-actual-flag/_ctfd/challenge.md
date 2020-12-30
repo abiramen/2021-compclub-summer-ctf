@@ -1,3 +1,4 @@
+---
 name: "An actual flag"
 category: "Crypto"
 value: 60
