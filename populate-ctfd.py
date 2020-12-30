@@ -7,6 +7,7 @@ import glob
 import requests
 import sys
 import argparse
+import os
 from os.path import basename
 
 class Markdown:
@@ -123,13 +124,12 @@ class Challenge:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Upload challenges to CTFd.')
     parser.add_argument('ctfd_root', type=str, help='root url of ctfd site')
-    parser.add_argument('api_key', type=str, help='ctfd api key')
     parser.add_argument("--force", dest='force', action='store_true', help='wip: force overwriting challenges')
     parser.add_argument("--delta", dest='delta', action='store_true', help='only upload challenges which haven\'t been uploaded')
     args = parser.parse_args()
 
     ctfd_root = f'{args.ctfd_root}/api/v1'
-    api_key = args.api_key
+    api_key = os.getenv("CTFD_TOKEN")
 
     # create request session
     s = requests.Session()
