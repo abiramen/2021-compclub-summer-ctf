@@ -1,3 +1,7 @@
 crypto/a-strange-shift/_ctfd/
 crypto/an-actual-flag/_ctfd/
+forensics/spotify/_ctfd/
 forensics/blank-space/_ctfd/
+forensics/egg-nog/_ctfd/
+misc/slides/_ctfd/
+misc/what-was-that/_ctfd/
