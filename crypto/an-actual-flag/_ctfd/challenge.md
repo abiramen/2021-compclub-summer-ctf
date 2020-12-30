@@ -1,7 +1,7 @@
 ---
 name: "An actual flag"
 category: "Crypto"
-value: 60
+value: 50
 state: hidden
 flag: "FLAG{Hacktopia}"
 ---
