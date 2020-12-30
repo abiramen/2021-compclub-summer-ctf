@@ -1,0 +1,3 @@
+crypto/a-strange-shift/_ctfd/
+crypto/an-actual-flag/_ctfd/
+forensics/blank-space/_ctfd/
