@@ -1,7 +1,7 @@
 ---
 name: "What was that?"
 category: "Misc"
-value: 20
+value: 25
 state: hidden
 flag: "FLAG{no_remorse}"
 ---
