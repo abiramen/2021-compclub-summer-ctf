@@ -1,5 +1,5 @@
 name: "An actual flag"
-category: "Forensics"
+category: "Crypto"
 value: 60
 state: hidden
 flag: "FLAG{Hacktopia}"
