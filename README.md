@@ -65,3 +65,9 @@ Yay! You should now have a running CTFd instance and should be able to connect o
 You can scale up your droplet a few hours before your CTF so that you have more vCPUs and RAM to run the CTF. We used {insert droplet config here}.
 
 -- still a work in progress --
+
+### Credits
+I based this guide off my experience setting up, which was mostly thanks to:
+- https://www.coengoedegebure.com/hosting-a-ctf-made-easy/
+- https://medium.com/csictf/self-hosting-a-ctf-platform-ctfd-90f3f1611587
+- https://github.com/lecafard
