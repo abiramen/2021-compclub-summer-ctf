@@ -1,5 +1,5 @@
 ---
-name: "dorf0 - a small favour"
+name: "firednd0 - a small favour"
 category: "OSINT"
 value: 25
 state: hidden
