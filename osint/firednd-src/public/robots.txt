@@ -1,2 +1,2 @@
-User-agent: *
+User-agent: Googlebot
 Disallow: /ryans-secret-page.html
