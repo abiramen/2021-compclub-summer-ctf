@@ -3,5 +3,8 @@ crypto/an-actual-flag/_ctfd/
 forensics/spotify/_ctfd/
 forensics/blank-space/_ctfd/
 forensics/egg-nog/_ctfd/
+osint/firednd-1/_ctfd/
+osint/firednd-0/_ctfd/
 misc/slides/_ctfd/
 misc/what-was-that/_ctfd/
+osint/firednd-2/_ctfd/
