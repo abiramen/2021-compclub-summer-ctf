@@ -8,3 +8,4 @@ osint/firednd-0/_ctfd/
 misc/slides/_ctfd/
 misc/what-was-that/_ctfd/
 osint/firednd-2/_ctfd/
+osint/firednd-3/_ctfd/

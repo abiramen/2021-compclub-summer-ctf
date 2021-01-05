@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Space Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        {% if correct == 'False' %}
+        <h1>Welcome to my cool space application!</h1>
+        <form action="{{url_for('index')}}" method="POST">
+            <label for="username">Username: </label>
+            <input type="text" name="username"><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password">
+            <input type="submit" value="Login">
+        </form>
+        {% if message != "" %}
+        <div class="alert alert-danger" role="alert">
+            {{ message | safe }} 
+        </div>
+        {% endif %}
+        {% else %}
+        <div class="alert alert-primary" role="alert">Hello! FLAG{2_b4Se_64_iS_nOt_eNcrYpTi0n}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
