@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, make_response
-app = Flask(__name__, static_url_path='/static')
+from flask import render_template, request, make_response
+from app import app
 
 PASSWORD = 'ireALLyLikEsPaceShiPs207$'
 EXPECTED = 'aXJlQUxMeUxpa0VzUGFjZVNoaVBzMjA3JA=='
@@ -17,6 +17,3 @@ def index():
 
     resp.set_cookie("cookies-are-yum", value=r"FLAG{1_i_cHeCkeD_f0r_c0oki3S}")
     return resp
-
-if __name__ == '__main__':
-    app.run(port=1337)
