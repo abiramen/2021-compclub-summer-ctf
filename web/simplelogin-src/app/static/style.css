@@ -1,0 +1,70 @@
+/*!
+
+  _oF_cOmM3NtS} (Flag 0, Part 3/3)
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html, body {
+  background: #151515;
+  color: #fbfbfb;
+  font-family: 'Quicksand', sans-serif;
+  padding: 30px 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.container {
+  width: 95%;
+  max-width: 1348px;
+  margin: 0 auto;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+form {
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+input {
+  margin: 3px 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: visible;
+}
+
+kbd {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+  padding: 0.2rem 0.4rem;
+  font-size: 87.5%;
+  color: #fff;
+  background-color: #212529;
+  border-radius: 0.2rem;
+}
+
