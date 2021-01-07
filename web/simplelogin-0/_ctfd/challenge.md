@@ -1,7 +1,7 @@
 ---
 name: "simplelogin - 0"
 category: "Web"
-value: 30
+value: 29
 state: hidden
 flag: "FLAG{0_i_f0unD_tHre3_tYpEs_oF_cOmM3NtS}"
 ---
