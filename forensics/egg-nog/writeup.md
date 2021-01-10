@@ -30,7 +30,7 @@ The first image you want to look at is eggnog.jpg - note that the contents featu
 
 We shall save this for later use.
 
-The second image is named steggnog.png - a huge hint that more advanced image steganography, like least significant bit steganography, might be in use here. Googling `online steganography` yields [this website](https://stylesuxx.github.io/steganography/). Decoding it yields the following:
+The second image is named steggnog.png - a huge hint that more advanced image steganography, like least significant bit steganography, might be in use here. Googling 'online steganography' yields [this website](https://stylesuxx.github.io/steganography/). Decoding it yields the following:
 
 `FAJI{tzhpzdtpditdfdcjthtzx}`
 
