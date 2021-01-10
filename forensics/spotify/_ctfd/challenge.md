@@ -3,7 +3,7 @@ name: "Spotify"
 category: "Forensics"
 value: 20
 state: hidden
-flag: "FLAG{639133}"
+flag: "FLAG{537522}"
 ---
 
 i made my spotify look pretty do you like it
