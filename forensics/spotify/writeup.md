@@ -28,4 +28,7 @@ From multiplying the resolution of the image (887 x 606), we get our solution.
 
 ### Flag
 FLAG{537522}
+
+### Other notes
+I made my Spotify look pretty using [Spicetify](https://github.com/khanhas/spicetify-cli) with [this theme](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Dribbblish).
 </details>
