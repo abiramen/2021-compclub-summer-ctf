@@ -1,7 +1,7 @@
 ---
 name: "A strange shift"
 category: "Crypto"
-value: 25
+value: 30
 state: hidden
 flag: "FLAG{not_a_doppler_shift}"
 ---
