@@ -12,3 +12,4 @@ osint/firednd-3/_ctfd/
 web/simplelogin-2/_ctfd/
 web/simplelogin-1/_ctfd/
 web/simplelogin-0/_ctfd/
+crypto/compclub/_ctfd/

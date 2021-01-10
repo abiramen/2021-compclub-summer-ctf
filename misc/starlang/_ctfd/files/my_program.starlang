@@ -1,0 +1,34 @@
+SET flag_start TO "FLAG{"
+SET flag_contents_part_1 TO ""
+SET flag_content_joiner TO "_"
+SET flag_contents_part_2 TO ""
+SET flag_end TO "}"
+
+SET magic_number TO 42
+
+IF magic_number Mod 15 Equals 7 THEN
+    SET flag_contents_part_1 TO "sP4c3"
+    SET magic_number TO 46
+ELSE-IF magic_number Divide 7 Equals 6 THEN
+    SET flag_contents_part_1 TO "n3buL0uS"
+    SET magic_number TO 63
+ELSE
+    SET magic_number TO magic_number + 8
+    IF magic_number Mod 5 Equals 0 THEN
+        SET flag_contents_part_1 TO "asTr0"
+    ELSE
+        SET flag_contents_part_1 TO "v0Id"
+    END-IF
+END-IF
+
+IF magic_number LessThan 48 THEN
+    SET flag_contents_part_2 TO "cUPc4keS"
+ELSE-IF magic_number LessThan 52 AND magic_number Mod 7 Equals 1 THEN
+    SET flag_contents_part_2 TO "a1i3Ns"
+ELSE-IF magic_number LessThan 63 AND magic_number Divide 9 Equals 7 THEN
+    SET flag_contents_part_2 TO "c4rr0t5TicK"
+ELSE
+    SET flag_contents_part_2 TO "r3d5h1fT"
+
+# The + operator joins strings: eg "hello" + " " + "world" becomes "hello world"
+PRINT flag_start + flag_contents_part_1 + flag_content_joiner + flag_contents_part_2 + flag_end
