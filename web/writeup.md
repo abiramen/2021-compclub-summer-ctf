@@ -8,7 +8,7 @@
 
 ## Description
 
-When I grow up, I want to be a software developer at NASA. I'm still on my way to getting there. I decided to practice my web development skills and make an unbreakable login site. I bet you can't hack me - I'll even tell you that my username is `spaceman`.
+When I grow up, I want to be a software developer at NASA. I'm still on my way to getting there. I decided to practice my web development skills and make an unbreakable login site. I bet you can't hack me - I'll even tell you that my username is `astronaut`.
 
 Good luck!
 
@@ -71,7 +71,7 @@ You probably tried to login before anything else, but this is in fact the final 
 
 'Password did not match expected encoded result: `aXJlQUxMeUxpa0VzUGFjZVNoaVBzMjA3JA==`'
 
-This looks a lot like base-64 encoding - the biggest giveaway is the occurrence of equal signs on the end (which has a 2/3 probability of happening with base-64). Googling for a base-64 decoder gives us plenty of results, and decoding it gets us the password to use with the username 'spaceman' - 'ireALLyLikEsPaceShiPs207$'. Logging in will give you the flag.
+This looks a lot like base-64 encoding - the biggest giveaway is the occurrence of equal signs on the end (which has a 2/3 probability of happening with base-64). Googling for a base-64 decoder gives us plenty of results, and decoding it gets us the password to use with the username 'astronaut' - 'ireALLyLikEsPaceShiPs207$'. Logging in will give you the flag.
 
 You can also decode base-64 on a Linux command line with `echo 'aXJlQUxMeUxpa0VzUGFjZVNoaVBzMjA3JA==' | base64 -d`.
 

@@ -8,7 +8,7 @@ MESSAGE = f'Password did not match expected encoded result: <kbd>{EXPECTED}</kbd
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        if request.form['username'] == 'spaceman' and request.form['password'] == PASSWORD:
+        if request.form['username'] == 'astronaut' and request.form['password'] == PASSWORD:
             resp = make_response(render_template("index.html", correct='True'))
         else:
             resp = make_response(render_template("index.html", correct='False', message=MESSAGE))
