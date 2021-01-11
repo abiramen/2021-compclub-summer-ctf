@@ -3,7 +3,7 @@ from app import app
 
 PASSWORD = 'ireALLyLikEsPaceShiPs207$'
 EXPECTED = 'aXJlQUxMeUxpa0VzUGFjZVNoaVBzMjA3JA=='
-MESSAGE = f'Password did not match expected encoded result: <kbd>{EXPECTED}</kbd>'
+MESSAGE = f'Password did not match expected encoded result: <kbd>{EXPECTED}</kbd>, or username did not match `astronaut`.'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
