@@ -4,6 +4,7 @@ crypto/an-actual-flag/_ctfd/
 web/simplelogin-2/_ctfd/
 web/simplelogin-1/_ctfd/
 web/simplelogin-0/_ctfd/
+forensics/spotify/_ctfd/
 forensics/blank-space/_ctfd/
 forensics/egg-nog/_ctfd/
 osint/firednd-1/_ctfd/
@@ -12,4 +13,3 @@ osint/firednd-2/_ctfd/
 misc/slides/_ctfd/
 misc/starlang/_ctfd/
 misc/what-was-that/_ctfd/
-forensics/spotify/_ctfd/

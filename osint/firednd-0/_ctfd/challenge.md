@@ -10,7 +10,7 @@ Hello! CEO of FireDnD here! We're a small startup that aims to connect people to
 
 I've got a few tasks for you to complete, but before we start, could you do me a favour?
 
-I'm supposed to meet up with someone after work today. I finish at 5PM, and take 8 minutes to walk from my office to Platform 2 of the nearest\* station. I then need to catch the next T4 train, before I get off at the second stop. Can you figure out what time I get off the train?
+I'm supposed to meet up with someone after work today. I finish at 5PM, and take 8 minutes to walk from my office to Platform 2 of the nearest\* station. I then need to catch the next T4 train, before I get off at the second stop. Can you figure out what time I get off the train (rounded to the nearest minute)?
 
 Your answer should be a 24-hour time. For example, if your answer is 6:04PM, enter `FLAG{1804}`.
 
