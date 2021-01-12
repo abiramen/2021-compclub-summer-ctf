@@ -48,8 +48,8 @@ We can see that none of the bytes are greater than 7F, which is equal to 127 in 
 If we convert each byte to their corresponding ASCII values (remember to use the hexadecimal column on the ASCII table), we get
 
 - H a c
-- K t o
-- P i a
+- k t o
+- p i a
 
 revealing the flag.
 
