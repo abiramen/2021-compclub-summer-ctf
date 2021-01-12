@@ -14,7 +14,7 @@ Remember to wrap your answer with `FLAG{}`!
 [anactualflag.png](https://github.com/abiramen/2021-compclub-summer-ctf/blob/main/crypto/an-actual-flag/_ctfd/files/anactualflag.png)
 
 ## Points
-30
+50
 
 ## Solution
 
