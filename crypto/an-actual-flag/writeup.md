@@ -27,7 +27,7 @@ Typically with an image challenge, I would go through
 - Metadata (basically non-existent with PNG files)
 - Photoshop levels (and other adjustments)
 - Steganography
-- Hexdump (checking through the raw bytes in the file for any anomaly, but not typical in a beginner's CTF of this level).
+- Hexdump (checking through the raw bytes in the file for any anomalies, but not typical in a beginner's CTF of this level).
 
 It's certainly worth checking through these if everything else fails, but this is a crypto challenge, not a forensics challenge. The wording of the challenge also suggests that the name being hidden in the flag is intrisic to the flag design itself, and not the file.
 
