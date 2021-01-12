@@ -24,7 +24,7 @@ Remember to wrap your answer with `FLAG{}`!
 ### Walkthrough
 
 Typically with an image challenge, I would go through
-- Metadata (basically non-existent with)
+- Metadata (basically non-existent with PNG files)
 - Photoshop levels (and other adjustments)
 - Steganography
 - Hexdump (checking through the raw bytes in the file for any anomaly, but not typical in a beginner's CTF of this level).
