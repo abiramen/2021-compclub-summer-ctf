@@ -31,3 +31,5 @@ However, this isn't quite the case. If we visit the /team.html page, we can see 
 
 ### Flag
 FLAG{h3Lps_t0_c0uNt}
+
+</details>
