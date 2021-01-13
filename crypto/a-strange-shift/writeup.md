@@ -48,7 +48,6 @@ NLIG{nwt_i_dwpxlmr_spint}
 
 Taking alternating letters, we get our flag.
 
-
 ### Flag
 FLAG{not_a_doppler_shift}
-
+</details>
