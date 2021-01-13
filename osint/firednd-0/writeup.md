@@ -7,9 +7,9 @@
 - OSINT
 
 ## Description
-Hello! CEO of FireDnD here! We're a small startup that aims to connect people together for games of Dungeons and Dragons. [You can check out our (incomplete - more on that later) website here!](https://firednd-syd.web.app)
+Hello! CEO of FireDnD here! We're a small startup that aims to connect people together for games of Dungeons and Dragons. You can check out our (incomplete - more on that later) website [here!](https://firednd-syd.web.app)
 
-[If this website is down, you can find the source code here.](https://github.com/abiramen/2021-compclub-summer-ctf/tree/main/osint/firednd-src)
+If this website is down, [you can find the source code here.](https://github.com/abiramen/2021-compclub-summer-ctf/tree/main/osint/firednd-src)
 
 I've got a few tasks for you to complete, but before we start, could you do me a favour?
 

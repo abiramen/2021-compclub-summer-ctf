@@ -7,7 +7,7 @@
 - Crypto
 
 ## Description
-Worked a double shift at Maccas, and I'm too tired to decode this. This dude kept ordering a Chicken Caesar Salad, and uttering this strange code. Can you decode it for me?
+Worked two different shifts in one day at Maccas, and I'm too tired to decode this. This dude kept ordering a Chicken Caesar Salad, and uttering this strange code. Can you decode it for me?
 
 ```
 SQNL{sby_n_ibucqrw_xunsy}
@@ -24,7 +24,7 @@ SQNL{sby_n_ibucqrw_xunsy}
 ### Walkthrough
 The most obvious hint here is the reference to the Caesar cipher, further confirmed by the use of the word shift. However, we could try all 26 possibilities here, and none of them would result in a coherent FLAG.
 
-The sneakier part that you may not have caught in the wording is the 'double shift' - two different Caesar shifts were used.
+The sneakier part that you may not have caught in the wording is the 'two different shifts' - two different Caesar shifts were used.
 
 One thing we can note is that we can expect the message to start with FLAG. If we try to rig a shift so that we get the first letter to be F (+13), we get:
 
