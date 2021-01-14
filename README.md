@@ -74,6 +74,3 @@ I created a second DigitalOcean droplet for anything that required hosting, such
 
 ### Acknowledgements
 Shoutouts to Coen Goedgebure, CSICTF and @lecafard, for random snippets in their guides that I used, or their advice :)
-I based this guide off my experience setting up, which was mostly thanks to:
-- https://www.coengoedegebure.com/hosting-a-ctf-made-easy/
-- https://medium.com/csictf/self-hosting-a-ctf-platform-ctfd-90f3f1611587
