@@ -66,6 +66,10 @@ Yay! You should now have a running CTFd instance and should be able to connect o
 
 You can scale up your droplet a few hours before your CTF so that you have more vCPUs and RAM to run the CTF. We used {insert droplet config here}.
 
+### Theming CTFd
+
+CTFd looks not very fun by default. You're free to write your own theme, or use the one I wrote [here](https://www.github.com/abiramen/ctfd-nebula-theme).
+
 ### Hosted challenges
 
 Where possible, try to host challenges statically, as it's far cheaper and you can leave it up for basically forever, so that anyone that comes across it in the future can try it.
