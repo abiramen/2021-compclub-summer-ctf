@@ -1,6 +1,8 @@
 # CompClub Summer CTF 2021
 
-This repo contains the challenges used in the 2021 CSESoc CompClub CTF, which was targeted at high school students in teams of 3-4, running . as well as accompanying writeups, and source files.
+This repo contains the challenges used in the 2021 CSESoc CompClub CTF, which was targeted at high school students in teams of 5, running over a period of 2 hours, as well as accompanying writeups, and source code.
+
+If you haven't checked my blogpost already, you should check that out [here](https://www.abiram.me/compclub-2021).
 
 In case future co-ordinators of CompClub CTFs are unsure as to how the infrastructure was set up, the following guide is just for you!
 
@@ -64,10 +66,14 @@ Yay! You should now have a running CTFd instance and should be able to connect o
 
 You can scale up your droplet a few hours before your CTF so that you have more vCPUs and RAM to run the CTF. We used {insert droplet config here}.
 
--- still a work in progress --
+### Hosted challenges
 
-### Credits
+Where possible, try to host challenges statically, as it's far cheaper and you can leave it up for basically forever, so that anyone that comes across it in the future can try it.
+
+I created a second DigitalOcean droplet for anything that required hosting, such as the server I wrote for the web challenges, as well as the link shortener I wrote for all the CompClub workshops. I would recommend installing Docker enginer and Dockerising anything that requires hosting.
+
+### Acknowledgements
+Shoutouts to Coen Goedgebure, CSICTF and @lecafard, for random snippets in their guides that I used, or their advice :)
 I based this guide off my experience setting up, which was mostly thanks to:
 - https://www.coengoedegebure.com/hosting-a-ctf-made-easy/
 - https://medium.com/csictf/self-hosting-a-ctf-platform-ctfd-90f3f1611587
-- https://github.com/lecafard
