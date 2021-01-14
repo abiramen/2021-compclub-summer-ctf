@@ -72,5 +72,16 @@ Where possible, try to host challenges statically, as it's far cheaper and you c
 
 I created a second DigitalOcean droplet for anything that required hosting, such as the server I wrote for the web challenges, as well as the link shortener I wrote for all the CompClub workshops. I would recommend installing Docker enginer and Dockerising anything that requires hosting.
 
+### Using populate_ctfd.py
+Someone at Security Society wrote a fantastic script to help push challenges to CTFd from Markdown files. If you've got a directory structure similar to that of this repo, this should help you out. I've modified it to use an environment variable to make things a bit easier.
+
+You'll need to create a CTFd access token, which you can do from the Profile page on CTFd. Copy this access token, and export an environment variable named `CTFD_TOKEN` to store it (I also stored this token in a `.env` file for quick usage). You can then run the script like this:
+
+```bash
+./populate_ctfd.py https://www.yourctfdomain.com
+```
+
+This will upload all of the challenges in your repo to CTFd using your access token. This will also duplicate any existing challenges with the same name. To avoid this, use the `--delta` flag to only push challenges that have never been uploaded before.
+
 ### Acknowledgements
 Shoutouts to Coen Goedgebure, CSICTF and @lecafard, for random snippets in their guides that I used, or their advice :)
