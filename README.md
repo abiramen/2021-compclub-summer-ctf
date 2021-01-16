@@ -64,7 +64,7 @@ server {
 
 Yay! You should now have a running CTFd instance and should be able to connect over HTTPS with your domain! Make sure to visit the page to set up your admin CTFd account.
 
-You can scale up your droplet a few hours before your CTF so that you have more vCPUs and RAM to run the CTF. We used {insert droplet config here}.
+You can scale up your droplet a few hours before your CTF so that you have more vCPUs and RAM to run the CTF. Make sure to also create a snapshot of your We bumped up to 4 vCPUs, 8GB RAM and 50 gigs of disk space.
 
 ### Theming CTFd
 
@@ -74,7 +74,7 @@ CTFd looks not very fun by default. You're free to write your own theme, or use 
 
 Where possible, try to host challenges statically, as it's far cheaper and you can leave it up for basically forever, so that anyone that comes across it in the future can try it.
 
-I created a second DigitalOcean droplet for anything that required hosting, such as the server I wrote for the web challenges, as well as the link shortener I wrote for all the CompClub workshops. I would recommend installing Docker enginer and Dockerising anything that requires hosting.
+I created a second DigitalOcean droplet for anything that required hosting, such as the server I wrote for the web challenges, as well as the link shortener I wrote for all the CompClub workshops. I would recommend installing Docker enginer and Dockerising anything that requires hosting. This second droplet would have cost us about three dollars (including the 2 weeks in the leadup to the CTF, the 6 hours of the CTF and the 10 days I kept it up for afterwards).
 
 ### Using populate_ctfd.py
 Someone at Security Society wrote a fantastic script to help push challenges to CTFd from Markdown files. If you've got a directory structure similar to that of this repo, this should help you out. I've modified it to use an environment variable to make things a bit easier.
